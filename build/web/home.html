@@ -1,0 +1,98 @@
+﻿<html>
+	<head>
+		<title>College Application Approval</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<div id="main">			
+					<ul>
+						<a href="home.html"><img src="images/adventure.png" alt=""/></a>
+						<li><a href="index.html"><b>logout</b></a></li>
+                                                <li><a href="Index_1.html"><b>Apply an Application</b></a></li>
+						<li><a href="assignment.html"><b>Application details</b></a></li>
+						<li><a href="home.html"><b>Home</b></a></li>							
+					</ul>				   	
+			</div>
+		</header>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+				$('.mySlides').slideDown(2000,function(){
+					$(".mySlides").fadeOut(3500)
+
+		});
+			});
+          </script>
+
+			<div class="Slides">
+  			<img class="mySlides" src="images/image4.jpg" >
+  			<img class="mySlides" src="images/image3.jpg" >
+ 			<img class="mySlides" src="images/image5.jpg" >
+ 			
+		</div>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+		
+
+		<footer>
+			    <div class="col-md-3">
+						<ul class="footer_box">
+							<h4>About</h4>
+							<li><a href="#"></a></li>
+							<li><a href="#">CHITKARA UNIVERSITY</a></li>
+							<li><a href="#">Atal siksha kunj, atal nagar barotiwala</a></li>
+							<li><a href="#">baddi himachal pradesh</a></li>
+						</ul>
+					</div>
+				<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>Customer Support</h4>
+							<li><a href="#">Contact Us</li>
+							<li><a href="https://www.chitkara.edu.in/">https://www.chitkara.edu.in</a></li>
+							<li><a href="#">9987696542</a></li>
+							<li><a href="#">9980765142</a></li>
+							<li><a href="#">9898980761</a></li>
+						</ul>
+					</div>
+				<div class="col-md-3">
+						<ul class="footer_box">
+							<h4>feedback</h4>
+							<div class="footer_search">
+				    		   <form>
+				    			<input type="text" value="Enter your feedback" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your feedback';}">
+				    			<input type="submit" value="Go">
+				    		   </form>
+						</div>					   
+				</div><br><br><br><br><br><br><br><br>
+				<div class="footer_bottom">
+			           <p>© 2018<b>Application Approval System</b></p>
+		            </div>
+		</footer>
+
+	</body>
+</html>
